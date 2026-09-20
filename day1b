@@ -1,0 +1,10 @@
+servers = ["server_A", "server_B", "server_C", "server_D"]
+loads = [45, 88, 92, 30]
+
+
+for server,load in zip(servers, loads):
+  if load >= 80:
+    print(f"WARNING {server} is load is {load}% high")
+
+
+
