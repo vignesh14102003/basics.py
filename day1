@@ -1,0 +1,10 @@
+score = 52
+
+if score >= 80:
+  grade = "Passed with distinction"
+elif score >= 50:
+  grade = "pass"
+else:
+  grade = "fail"
+
+print(f"student is {grade}")
