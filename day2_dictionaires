@@ -1,0 +1,12 @@
+# day2_quick_streak.py
+
+# 1. Create the profile dictionary
+profile = {"name": "vignesh ramkumar","streak":"5"}
+
+# 2. Add the target_company key
+profile["target_company"] = "Amadeus"
+
+
+# 3. Print the formatted message using profile values
+
+print(f"{profile["name"]} is aiming for {profile["target_company"]} on day {profile["streak"]}")
